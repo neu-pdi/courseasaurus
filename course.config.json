@@ -107,8 +107,8 @@
   "prerequisites": [
     "CS 101"
   ],
-  "description": "This is a demo course showcasing the Courseasaurus plugin capabilities. Students will learn fundamental concepts through lectures, labs, and assignments.",
-  "mechanicalDescription": "This course meets three times per week for lectures and once per week for lab sessions. Assignments are due weekly on Sundays at 11:59 PM.",
+  "description": "Modern CourseOps Platform - Manage your entire course curriculum using markdown, Git, and AI-assisted workflows. This site is built with Docusaurus (https://docusaurus.io/) and powered by the [Courseasaurus plugin](https://github.com/neu-pdi/courseasaurus) for advanced course management features.",
+  "mechanicalDescription": "",
   "officeHours": [
     {
       "instructor": "Dr. Jane Smith",
