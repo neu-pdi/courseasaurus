@@ -268,6 +268,7 @@ Now that you have a running Courseasaurus site, you should:
 
 1. **Learn Git workflows** - Read [GitOps Workflow](./gitops-workflow.md) to understand version control
 2. **Create your first content** - Add a lecture note or lab to see how markdown files work
+3. **Explore the AI Philosophy** - Understand [AI-assisted course management principles](./ai-philosophy.md)
 
 ---
 

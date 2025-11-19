@@ -512,6 +512,7 @@ Now that you understand Git workflows:
 
 1. **Practice**: Create a branch, make changes, open a PR, merge it
 2. **Set up CI/CD**: Add GitHub Actions to automate deployment
+3. **Learn AI Philosophy**: Read [AI-Assisted CourseOps Principles](./ai-philosophy.md)
 
 ---
 
