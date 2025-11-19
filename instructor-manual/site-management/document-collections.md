@@ -459,8 +459,7 @@ Now that you can add collections:
 
 1. **Plan your structure**: What collections does your course need? Ask AI for suggestions.
 2. **Start simple**: Add one collection using AI proposals, test it, then add more
-3. **Learn refactoring**: Read [Content Refactoring](./content-refactoring.md) to reorganize existing content
-4. **Manage schedules**: Explore [Schedule Management](./schedule-management.md) for the course calendar
+3. **Manage schedules**: Explore [Schedule Management](./schedule-management.md) for the course calendar
 
 ---
 

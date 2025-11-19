@@ -505,8 +505,6 @@ For weekday classes, dates should not fall on weekends:
 Now that you can manage schedules:
 
 1. **Practice**: Make a minor schedule adjustment using the AI
-2. **Learn objectives**: Read [Learning Objectives Management](./learning-objectives.md)
-3. **Content development**: Explore [AI-Assisted Content Development](../content-development/assignments-projects.md)
 
 ---
 

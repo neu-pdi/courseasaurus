@@ -155,8 +155,6 @@ For instance, the `course.config.json` you'll see in the next section is the act
 
 Ready to get started? Head to [Installation](./installation.md) to set up your development environment and create your first Courseasaurus site.
 
-Or, if you want to understand the philosophy behind AI-assisted course management first, jump to [AI Philosophy](./ai-philosophy.md) to learn the principles that will guide your work throughout this manual.
-
 ---
 
 **Remember**: Courseasaurus is a tool to enhance your teaching, not replace your expertise. The goal is to automate the tedious parts of course management so you can focus on what matters most—helping students learn.
