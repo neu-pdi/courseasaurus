@@ -1,0 +1,481 @@
+---
+sidebar_position: 3
+title: AI-Assisted Project Development
+description: Designing semester-long projects using backwards design and AI collaboration
+---
+
+import RevealJS, { Slide } from '@site/src/components/RevealJS';
+
+<RevealJS theme="white" transition="slide">
+
+<Slide data-background-color="#2c3e50">
+
+<h1 style={{color: 'white'}}>Developing Semester-Long Projects with AI</h1>
+
+<h3 style={{color: '#ecf0f1', marginTop: '40px'}}>A Backwards Design Approach</h3>
+
+<p style={{color: '#bdc3c7', marginTop: '60px', fontSize: '0.8em'}}>
+  <em>For Expert Educators: Leveraging AI While Maintaining Pedagogical Control</em>
+</p>
+
+</Slide>
+
+<Slide>
+
+## The Traditional Project Problem
+
+<div style={{display: 'flex', justifyContent: 'space-around', marginTop: '40px'}}>
+  <div style={{flex: 1, padding: '20px'}}>
+    <h4>📅 Typical Timeline</h4>
+    <ul style={{fontSize: '0.85em'}}>
+      <li>Week 4: Project assigned</li>
+      <li>Week 5-13: <em>radio silence</em></li>
+      <li>Week 14: Everything due</li>
+      <li>Finals week: Panic grading</li>
+    </ul>
+  </div>
+  <div style={{flex: 1, padding: '20px'}}>
+    <h4>😰 Predictable Results</h4>
+    <ul style={{fontSize: '0.85em'}}>
+      <li>Student procrastination</li>
+      <li>No feedback loop</li>
+      <li>All-nighters before deadline</li>
+      <li>Underwhelming submissions</li>
+    </ul>
+  </div>
+</div>
+
+<p style={{marginTop: '40px', fontSize: '0.9em', color: '#e74c3c'}}>
+  <strong>We know better. Why do we keep doing this?</strong>
+</p>
+
+</Slide>
+
+<Slide data-background-color="#ecf0f1">
+
+## Why Semester-Long Projects Matter
+
+<div style={{textAlign: 'left', padding: '0 60px', fontSize: '0.9em'}}>
+
+**Pedagogical benefits that homework can't provide:**
+
+- **Integration** — Apply multiple concepts together, not in isolation
+- **Authenticity** — Mimic real-world progressive development
+- **Motivation** — Watch substantial work grow over time
+- **Portfolio Value** — Meaningful showcase for students
+- **Depth** — Go beyond surface-level understanding
+
+<div style={{marginTop: '30px', padding: '15px', backgroundColor: '#3498db', color: 'white', borderRadius: '8px'}}>
+  <strong>The Challenge:</strong> Keeping students on track without end-of-semester panic
+</div>
+
+</div>
+
+</Slide>
+
+<Slide>
+
+## The Core Principle
+
+<div style={{fontSize: '1.3em', textAlign: 'center', padding: '40px 80px', backgroundColor: '#f39c12', color: 'white', borderRadius: '12px', margin: '40px 0'}}>
+  <strong>Learning-Aligned Milestones</strong>
+</div>
+
+<p style={{fontSize: '1.1em', marginTop: '30px'}}>
+  Each milestone should be achievable using<br/>
+  skills students have <strong>just learned</strong> in lectures
+</p>
+
+<div style={{marginTop: '40px', fontSize: '0.85em', textAlign: 'left', padding: '0 100px'}}>
+  <strong>Week 4:</strong> Milestone 1 (uses Weeks 1-3 concepts)<br/>
+  <strong>Week 7:</strong> Milestone 2 (adds Weeks 4-6 concepts)<br/>
+  <strong>Week 10:</strong> Milestone 3 (adds Weeks 7-9 concepts)<br/>
+  <strong>Week 13:</strong> Final delivery (adds Weeks 10-12 concepts)
+</div>
+
+</Slide>
+
+<Slide data-transition="zoom">
+
+## Backwards Design: The AI-Assisted Process
+
+<div style={{fontSize: '0.85em', textAlign: 'left', padding: '0 40px'}}>
+
+### Traditional Backwards Design
+1. Define learning objectives
+2. Design assessment
+3. Create scaffolding
+
+### **Key Innovation: Staged Artifact Development**
+
+<div style={{display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '20px', marginTop: '20px'}}>
+  <div style={{padding: '15px', backgroundColor: '#e8f4f8', borderRadius: '8px'}}>
+    <strong>Stage 1:</strong> Generate concepts<br/>
+    <strong>Stage 2:</strong> Identify milestones<br/>
+    <strong>Stage 3:</strong> Expand requirements
+  </div>
+  <div style={{padding: '15px', backgroundColor: '#e8f4f8', borderRadius: '8px'}}>
+    <strong>Stage 4:</strong> Create rubrics<br/>
+    <strong>Stage 5:</strong> Generate support<br/>
+    <strong>Stage 6:</strong> Test-solve yourself
+  </div>
+</div>
+
+<p style={{marginTop: '20px', fontSize: '0.9em', color: '#e74c3c'}}>
+  <strong>Critical:</strong> Don't generate everything at once. Build incrementally with review checkpoints.
+</p>
+
+</div>
+
+</Slide>
+
+<Slide>
+
+## Stage 1: Generate Project Concepts
+
+<div style={{textAlign: 'left', fontSize: '0.85em', padding: '0 40px'}}>
+
+### Working in a Course Repository
+
+**Key advantage:** AI reads your actual course files
+
+```markdown
+Prompt: "Examine course structure. Generate 3-4 
+semester-long project concepts that integrate these 
+learning objectives throughout the term. Keep brief: 
+2-3 paragraphs per concept."
+```
+
+<div style={{marginTop: '30px', padding: '15px', backgroundColor: '#2ecc71', color: 'white', borderRadius: '8px'}}>
+  <strong>Your job:</strong> Select the most pedagogically sound concept
+  <ul style={{marginTop: '10px', marginBottom: '0'}}>
+    <li>Student engagement</li>
+    <li>Real-world relevance</li>
+    <li>Portfolio value</li>
+    <li>Skill integration</li>
+    <li>Feasibility</li>
+  </ul>
+</div>
+
+</div>
+
+</Slide>
+
+<Slide>
+
+## Stage 2: Identify Natural Milestones
+
+<div style={{textAlign: 'left', fontSize: '0.8em', padding: '0 40px'}}>
+
+```markdown
+Prompt: "I've chosen the [concept] project. Examine 
+course structure. Identify 4-5 natural milestone points. 
+For each:
+- Suggested due week (AFTER required skills taught)
+- Available skills from lectures
+- High-level deliverable (one sentence)
+- Why this is a natural breaking point
+- Time estimate (3-6 hours)
+
+Save to assignments/project-overview.md"
+```
+
+<div style={{marginTop: '25px', padding: '15px', backgroundColor: '#e74c3c', color: 'white', borderRadius: '8px'}}>
+  <strong>⚠️ Critical Review Checkpoint</strong>
+  <ul style={{marginTop: '10px', marginBottom: '0', fontSize: '0.95em'}}>
+    <li>Verify timing relative to exams/breaks</li>
+    <li>Check milestone spacing</li>
+    <li>Ensure progressive difficulty</li>
+    <li><strong>Manually edit for your voice and expectations</strong></li>
+  </ul>
+</div>
+
+<p style={{marginTop: '15px', fontSize: '0.85em'}}>
+  <code>git commit -m "Add project overview with milestone timeline"</code>
+</p>
+
+</div>
+
+</Slide>
+
+<Slide>
+
+## Stage 3: Expand Each Milestone
+
+<div style={{textAlign: 'left', fontSize: '0.75em', padding: '0 40px'}}>
+
+**Work on ONE milestone at a time, not all at once**
+
+```markdown
+Prompt: "@project-overview.md has our overview. 
+Create detailed requirements at 
+@project-milestone-1.md for Milestone 1 only.
+
+Include:
+- Skills learned by Week 3 (reference lectures)
+- Specific deliverables (files, docs, features)
+- Acceptance criteria ("done" definition)
+- Time estimate (3-5 hours)
+- Why this milestone matters pedagogically"
+```
+
+### Edit for Specificity
+
+<div style={{display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '15px', marginTop: '15px'}}>
+  <div style={{padding: '12px', backgroundColor: '#ffebee', borderRadius: '8px'}}>
+    <strong>❌ AI draft:</strong><br/>
+    "Create appropriate documentation"
+  </div>
+  <div style={{padding: '12px', backgroundColor: '#e8f5e9', borderRadius: '8px'}}>
+    <strong>✅ You edit:</strong><br/>
+    "Create README.md with: title, description (2-3 sentences), 5+ features, tech stack. Use markdown from Lecture 2."
+  </div>
+</div>
+
+<p style={{marginTop: '15px'}}>
+  Repeat for remaining milestones: <code>project-milestone-2.md</code>, <code>project-milestone-3.md</code>, etc.
+</p>
+
+</div>
+
+</Slide>
+
+<Slide data-background-color="#34495e">
+
+<div style={{color: 'white'}}>
+
+## Stage 4: Lecture-Grounded Rubrics
+
+<div style={{textAlign: 'left', fontSize: '0.8em', padding: '0 40px'}}>
+
+```markdown
+Prompt: "Create grading rubric for 
+@project-milestone-3.md (20 points) that:
+
+- Assesses technical correctness
+- Focuses on NEW material since Milestone 2
+- Uses code standards from 
+  @lecture-notes/l2-best-practices.md
+- References specific lectures for each criterion"
+```
+
+<div style={{marginTop: '30px', padding: '20px', backgroundColor: '#f39c12', borderRadius: '8px'}}>
+  <strong>Why Reference Lectures Explicitly?</strong>
+  <ul style={{marginTop: '10px', marginBottom: '0'}}>
+    <li>Uses same terminology students learned</li>
+    <li>Criteria grounded in what was taught</li>
+    <li>Students can review specific lectures</li>
+    <li>Makes grading feel predictable, not arbitrary</li>
+    <li>TAs grade consistently</li>
+  </ul>
+</div>
+
+</div>
+
+</div>
+
+</Slide>
+
+<Slide>
+
+## Stage 5: Generate Support Materials
+
+<div style={{textAlign: 'left', fontSize: '0.85em', padding: '0 40px'}}>
+
+```markdown
+Prompt: "Generate support materials for 
+@project-milestone-2.md:
+
+- 'Getting Started' — concrete first steps
+- 'Common Pitfalls' — typical errors and fixes
+- 'Resources' — links to docs, tutorials, examples
+
+Save to project-milestone-2-support.md"
+```
+
+### Additional Support AI Can Generate
+
+- **FAQ** (10 common questions + answers)
+- **Troubleshooting Guide** (common errors + fixes)
+- **Simplified Example** (different domain, demonstrates concept)
+- **Rubric Explanation** (how to earn full credit)
+
+<p style={{marginTop: '20px', fontSize: '0.9em', color: '#e74c3c'}}>
+  <strong>Your job:</strong> Manually refine with your specific warnings, encouragement, and resources
+</p>
+
+</div>
+
+</Slide>
+
+<Slide data-auto-animate>
+
+## Common Pitfalls
+
+<div style={{fontSize: '0.9em', textAlign: 'left', padding: '0 80px'}}>
+
+<h3>❌ Watch Out For:</h3>
+
+</div>
+
+</Slide>
+
+<Slide data-auto-animate>
+
+## Common Pitfalls
+
+<div style={{fontSize: '0.75em', textAlign: 'left', padding: '0 40px'}}>
+
+<h3>❌ Watch Out For:</h3>
+
+<div className="fragment" style={{marginBottom: '15px', padding: '12px', backgroundColor: '#ffebee', borderRadius: '8px'}}>
+  <strong>1. Front-Loaded Difficulty</strong> — First milestone too ambitious<br/>
+  <em style={{fontSize: '0.9em'}}>→ Ask AI: "Is milestone-1 achievable after lectures 1-3?"</em>
+</div>
+
+<div className="fragment" style={{marginBottom: '15px', padding: '12px', backgroundColor: '#fff3e0', borderRadius: '8px'}}>
+  <strong>2. Disconnected Milestones</strong> — Students start over each time<br/>
+  <em style={{fontSize: '0.9em'}}>→ Ask AI: "Verify each milestone builds on previous deliverables"</em>
+</div>
+
+<div className="fragment" style={{marginBottom: '15px', padding: '12px', backgroundColor: '#f3e5f5', borderRadius: '8px'}}>
+  <strong>3. Skills Gap</strong> — Milestone requires skills not yet taught<br/>
+  <em style={{fontSize: '0.9em'}}>→ Ask AI: "Verify all required skills taught before Week 12"</em>
+</div>
+
+<div className="fragment" style={{marginBottom: '15px', padding: '12px', backgroundColor: '#e3f2fd', borderRadius: '8px'}}>
+  <strong>4. No Feedback Loop</strong> — Grades without actionable guidance<br/>
+  <em style={{fontSize: '0.9em'}}>→ Grade within 1 week; use AI feedback templates</em>
+</div>
+
+<div className="fragment" style={{marginBottom: '15px', padding: '12px', backgroundColor: '#e8f5e9', borderRadius: '8px'}}>
+  <strong>5. Unrealistic Time Estimates</strong> — "Should take 3 hours" (takes 10)<br/>
+  <em style={{fontSize: '0.9em'}}>→ Test-solve yourself. Add 50-100% buffer.</em>
+</div>
+
+<div className="fragment" style={{padding: '12px', backgroundColor: '#fce4ec', borderRadius: '8px'}}>
+  <strong>6. Vague Requirements</strong> — Students don't know when "done"<br/>
+  <em style={{fontSize: '0.9em'}}>→ Ask AI: "Identify vague requirements; suggest measurable alternatives"</em>
+</div>
+
+</div>
+
+</Slide>
+
+<Slide>
+
+## Adapting Mid-Semester with AI
+
+<div style={{textAlign: 'left', fontSize: '0.85em', padding: '0 50px'}}>
+
+**Be responsive.** Rigid adherence to original plan can tank student success.
+
+<div style={{display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '20px', marginTop: '30px'}}>
+  <div style={{padding: '20px', backgroundColor: '#ffebee', borderRadius: '8px'}}>
+    <h4 style={{marginTop: '0'}}>⏱️ Milestones Taking Too Long</h4>
+    <p style={{fontSize: '0.9em'}}>
+      "Students struggling with M2 — taking 8 hours vs 5. 
+      Suggest ways to reduce scope of M3-M5 while preserving 
+      learning objectives."
+    </p>
+  </div>
+  <div style={{padding: '20px', backgroundColor: '#e8f5e9', borderRadius: '8px'}}>
+    <h4 style={{marginTop: '0'}}>⚡ Milestones Too Easy</h4>
+    <p style={{fontSize: '0.9em'}}>
+      "Students completing quickly. Suggest extension options 
+      for M3-M5 that challenge advanced students without 
+      changing core requirements."
+    </p>
+  </div>
+</div>
+
+<p style={{marginTop: '25px', fontSize: '1em', color: '#2c3e50'}}>
+  <strong>AI helps you adapt quickly while maintaining pedagogical soundness.</strong>
+</p>
+
+</div>
+
+</Slide>
+
+<Slide data-background-color="#27ae60">
+
+<div style={{color: 'white'}}>
+
+## Key Takeaways
+
+<div style={{textAlign: 'left', fontSize: '0.9em', padding: '0 60px', marginTop: '30px'}}>
+
+1. **Staged Artifact Development** — Build incrementally with review checkpoints
+2. **Learning-Aligned Milestones** — Each uses skills just taught
+3. **Lecture-Grounded Rubrics** — Reference specific lectures for predictability
+4. **Human Judgment is Essential** — AI drafts, you refine and decide
+5. **Test-Solve Yourself** — If you can't do it in allocated time, neither can students
+6. **Be Responsive** — Adapt mid-semester based on student progress
+
+<div style={{marginTop: '30px', padding: '20px', backgroundColor: 'rgba(255,255,255,0.2)', borderRadius: '8px', fontSize: '0.95em'}}>
+  <strong>Remember:</strong> AI handles drafting and structure.<br/>
+  You provide pedagogy, refinement, and final judgment.
+</div>
+
+</div>
+
+</div>
+
+</Slide>
+
+<Slide>
+
+## The Meta Lesson: AI Philosophy
+
+<div style={{textAlign: 'left', fontSize: '0.85em', padding: '0 60px'}}>
+
+### What This Process Models
+
+<div style={{marginTop: '25px', padding: '20px', backgroundColor: '#ecf0f1', borderRadius: '8px'}}>
+  
+**✅ Effective AI Usage:**
+- Only ask for what you can review for accuracy
+- Break large tasks into reviewable chunks
+- Iterate on scope when results unsatisfactory
+- Maintain expertise through direct practice
+- Make conscious decisions about assistance boundaries
+
+**❌ Ineffective AI Usage:**
+- "Generate complete project" → unreviewed bulk content
+- No editorial checkpoints
+- Loss of pedagogical voice
+- Skill atrophy from over-delegation
+
+</div>
+
+<p style={{marginTop: '25px', fontSize: '1.05em', color: '#2c3e50'}}>
+  <strong>This workflow embodies the principles we teach students about AI.</strong>
+</p>
+
+</div>
+
+</Slide>
+
+<Slide data-background-color="#2c3e50">
+
+<div style={{color: 'white', textAlign: 'center'}}>
+
+<h1 style={{marginBottom: '40px'}}>Questions?</h1>
+
+<p style={{fontSize: '1.2em', marginTop: '60px'}}>
+  <strong>Let's discuss:</strong>
+</p>
+
+<ul style={{fontSize: '0.95em', textAlign: 'left', display: 'inline-block', marginTop: '30px'}}>
+  <li>How might this approach adapt to your discipline?</li>
+  <li>What review checkpoints matter most to you?</li>
+  <li>Where do you see risks or limitations?</li>
+  <li>How do you maintain pedagogical control with AI?</li>
+</ul>
+
+</div>
+
+</Slide>
+
+</RevealJS>
+

@@ -1,0 +1,121 @@
+{
+  "courseCode": "CS 1000",
+  "courseTitle": "Courseasaurus Demo Course",
+  "semester": "Spring 2026",
+  "academicYear": "2025-2026",
+  "startDate": "2026-01-06",
+  "endDate": "2026-04-20",
+  "timezone": "America/New_York",
+  "sections": [
+    {
+      "id": "01",
+      "name": "Section 01",
+      "crn": "12345",
+      "timeZone": "America/New_York",
+      "meetings": [
+        {
+          "type": "lecture",
+          "days": [
+            "Monday",
+            "Wednesday",
+            "Thursday"
+          ],
+          "startTime": "10:30",
+          "endTime": "11:35",
+          "location": "TBD"
+        },
+        {
+          "type": "lab",
+          "days": [
+            "Tuesday"
+          ],
+          "startTime": "14:00",
+          "endTime": "15:40",
+          "location": "Ryder Hall 431"
+        }
+      ],
+      "instructors": [
+        "Dr. Jane Smith"
+      ]
+    }
+  ],
+  "holidays": [
+    {
+      "date": "2026-01-19",
+      "name": "Martin Luther King Jr. Day",
+      "type": "holiday"
+    },
+    {
+      "date": "2026-02-16",
+      "name": "Presidents' Day",
+      "type": "holiday"
+    },
+    {
+      "date": "2026-03-02",
+      "endDate": "2026-03-06",
+      "name": "Spring Break",
+      "type": "break"
+    },
+    {
+      "date": "2026-04-20",
+      "name": "Patriots' Day",
+      "type": "holiday"
+    }
+  ],
+  "lectures": [
+    {
+      "lectureId": "l1-intro",
+      "dates": [
+        "2026-01-06"
+      ],
+      "topics": [
+        "Course Introduction and Overview",
+        "Syllabus Review",
+        "Getting Started with Course Tools"
+      ],
+      "notes": "This is a placeholder lecture for demonstration purposes."
+    }
+  ],
+  "labs": [
+    {
+      "id": "lab1",
+      "title": "Lab 1: Getting Started",
+      "dates": [
+        "2026-01-07"
+      ],
+      "description": "Introduction to the development environment and basic tools. This is a placeholder lab for demonstration purposes.",
+      "points": 50,
+      "url": "/labs/lab1-getting-started"
+    }
+  ],
+  "assignments": [
+    {
+      "id": "hw1",
+      "title": "Homework 1: Introduction Assignment",
+      "type": "homework",
+      "assignedDate": "2026-01-06",
+      "dueDate": "2026-01-13",
+      "dueTime": "23:59",
+      "points": 100,
+      "notes": "This is a placeholder assignment for demonstration purposes.",
+      "url": "/assignments/hw1-introduction"
+    }
+  ],
+"metadata": {
+  "department": "Computer Science",
+  "credits": 3,
+  "prerequisites": [
+    "CS 101"
+  ],
+  "description": "This is a demo course showcasing the Courseasaurus plugin capabilities. Students will learn fundamental concepts through lectures, labs, and assignments.",
+  "mechanicalDescription": "This course meets three times per week for lectures and once per week for lab sessions. Assignments are due weekly on Sundays at 11:59 PM.",
+  "officeHours": [
+    {
+      "instructor": "Dr. Jane Smith",
+      "schedule": "Mondays 2-3pm, Wednesdays 10-11am",
+      "location": "Building 100, Room 201",
+      "bookingUrl": "https://calendly.com/demo-course"
+    }
+  ]
+}
+}

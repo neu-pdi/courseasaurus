@@ -1,0 +1,97 @@
+---
+sidebar_position: 1
+title: Introduction to Lecture Slides
+---
+
+# Lecture Slides
+
+This section contains RevealJS presentations for CS 3100 lectures.
+
+## How to Use
+
+Each presentation uses the RevealJS component. You can navigate slides using:
+- **Arrow keys** (← → ↑ ↓)
+- **Space bar** (next slide)
+- **ESC** (overview mode, or exit fullscreen)
+- **Touch gestures** on mobile devices
+
+### Fullscreen Mode
+
+Click the **fullscreen button** (top-right corner) to enter fullscreen mode, which hides all Docusaurus navigation and makes the presentation take up the entire screen. Press **ESC** or click the button again to exit fullscreen.
+
+## Creating New Presentations
+
+You can create presentations in two ways:
+
+### Method 1: Using Slide Components (Explicit)
+
+Create a new `.mdx` file and wrap content in `<Slide>` components:
+
+```mdx
+import RevealJS, { Slide } from '@site/src/components/RevealJS';
+
+<RevealJS theme="white" transition="slide">
+  <Slide>
+    <h1>Slide Title</h1>
+    <p>Slide content</p>
+  </Slide>
+  <Slide>
+    <h2>Another Slide</h2>
+    <p>More content</p>
+  </Slide>
+</RevealJS>
+```
+
+### Method 2: Auto-Slides from Markdown (Automatic)
+
+For simpler workflows, use plain markdown with `autoSlides={true}`. The component will automatically split your content into slides based on horizontal rules (`---`) or h1/h2 headings:
+
+```mdx
+import RevealJS from '@site/src/components/RevealJS';
+
+<RevealJS theme="white" transition="slide" autoSlides={true}>
+
+# First Slide Title
+
+Content for the first slide.
+
+---
+
+## Second Slide Title
+
+Content for the second slide.
+
+---
+
+## Third Slide Title
+
+More content here.
+
+</RevealJS>
+```
+
+**Note:** When using `autoSlides`, each `---` (horizontal rule) or h1/h2 heading starts a new slide. The component automatically detects if you're already using `<Slide>` components and won't double-process them.
+
+## Available Themes
+
+- `white` (default)
+- `black`
+- `league`
+- `beige`
+- `sky`
+- `night`
+- `serif`
+- `simple`
+- `solarized`
+- `blood`
+- `moon`
+
+## Transitions
+
+- `none`
+- `fade`
+- `slide` (default)
+- `convex`
+- `concave`
+- `zoom`
+

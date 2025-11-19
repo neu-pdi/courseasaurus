@@ -1,0 +1,73 @@
+[RevealJS] Fullscreen state changed: {isFullscreen: false}
+VM1298 index.tsx:98 [RevealJS] Exiting fullscreen, cleaning up
+VM1298 index.tsx:87 [RevealJS] Normal mode: Scheduling viewport fix
+VM1298 index.tsx:57 [RevealJS] fixViewportSize called (context: normal, force: false) {container: 'reveal revealContainer_CwsG reveal-viewport slide …ontal-slides has-light-background ready has-white', hasInstance: true, isFullscreen: false}
+VM1298 index.tsx:66 [RevealJS] Dimensions (context: normal): {container: {…}, viewport: {…}, window: {…}, isFullscreen: false}
+VM1298 index.tsx:70 [RevealJS] Set viewport styles: {width: '849px', height: '616.797px', maxWidth: '849px', maxHeight: '616.797px'}
+VM1298 index.tsx:72 [RevealJS] Calling layout (hasLayout: true)
+VM1298 index.tsx:88 [RevealJS] Normal mode: Calling fixViewportSize
+VM1298 index.tsx:57 [RevealJS] fixViewportSize: Already updating, skipping (context: normal-init)
+VM1298 index.tsx:74 [RevealJS] Final viewport dimensions: {width: 849, height: 616.796875, computed: {…}}
+VM1372 index.tsx:98 [RevealJS] Fullscreen state changed: {isFullscreen: false}
+VM1372 index.tsx:98 [RevealJS] Exiting fullscreen, cleaning up
+VM1372 index.tsx:87 [RevealJS] Normal mode: Scheduling viewport fix
+VM1372 index.tsx:57 [RevealJS] fixViewportSize called (context: normal, force: false) {container: 'reveal revealContainer_CwsG reveal-viewport slide …ontal-slides has-light-background ready has-white', hasInstance: true, isFullscreen: false}
+VM1372 index.tsx:66 [RevealJS] Dimensions (context: normal): {container: {…}, viewport: {…}, window: {…}, isFullscreen: false}
+VM1372 index.tsx:70 [RevealJS] Set viewport styles: {width: '849px', height: '616.797px', maxWidth: '849px', maxHeight: '616.797px'}
+VM1372 index.tsx:72 [RevealJS] Calling layout (hasLayout: true)
+VM1372 index.tsx:88 [RevealJS] Normal mode: Calling fixViewportSize
+VM1372 index.tsx:57 [RevealJS] fixViewportSize: Already updating, skipping (context: normal-init)
+VM1372 index.tsx:74 [RevealJS] Final viewport dimensions: {width: 849, height: 616.796875, computed: {…}}
+VM1372 index.tsx:134 [RevealJS] toggleFullscreen: false -> true {hasNormalInstance: true, hasFullscreenInstance: false, windowSize: {…}}
+VM1372 index.tsx:98 [RevealJS] Fullscreen state changed: {isFullscreen: true}
+VM1372 index.tsx:108 [RevealJS] Fullscreen RevealJS initialized
+VM1372 index.tsx:108 [RevealJS] Fullscreen RevealJS initialization promise resolved
+VM1372 index.tsx:117 [RevealJS] Starting fullscreen viewport fixes
+VM1372 index.tsx:99 [RevealJS] Fullscreen transition timer fired {hasInstance: true, hasRef: true, isFullscreen: true}
+VM1372 index.tsx:99 [RevealJS] Fullscreen viewport fix: {viewportWidth: 881, viewportHeight: 771, hasViewport: true, containerRect: DOMRect}
+VM1372 index.tsx:99 [RevealJS] Viewport before fix: {width: 881, height: 771, computedWidth: '881px', computedHeight: '771px'}
+VM1372 index.tsx:99 [RevealJS] Set fullscreen viewport styles: {width: '881px', height: '771px'}
+VM1372 index.tsx:99 [RevealJS] Fullscreen layout call (hasLayout: true)
+VM1372 index.tsx:99 [RevealJS] Dispatching fullscreen resize event
+VM1372 index.tsx:126 [RevealJS] Fullscreen ResizeObserver triggered {entries: Array(1)}
+VM1372 index.tsx:127 [RevealJS] Fullscreen ResizeObserver: Updating viewport {viewportWidth: 881, viewportHeight: 771, hasViewport: true}
+VM1372 index.tsx:127 [RevealJS] Fullscreen ResizeObserver: Calling layout (hasLayout: true)
+VM1372 index.tsx:110 [RevealJS] fixFullscreenViewport attempt 0 {hasRef: true, isFullscreen: true}
+VM1372 index.tsx:111 [RevealJS] fixFullscreenViewport dimensions: {window: {…}, container: {…}}
+VM1372 index.tsx:112 [RevealJS] fixFullscreenViewport: Found viewport, before: {width: 881, height: 771, computed: {…}}
+VM1372 index.tsx:113 [RevealJS] fixFullscreenViewport: Set styles: {width: '881px', height: '771px'}
+VM1372 index.tsx:114 [RevealJS] fixFullscreenViewport: Calling layout (hasLayout: true)
+VM1372 index.tsx:114 [RevealJS] fixFullscreenViewport: Dispatching resize event
+VM1372 index.tsx:100 [RevealJS] Fullscreen viewport after fix: {width: 881, height: 771, computedWidth: '881px', computedHeight: '771px'}
+VM1372 index.tsx:110 [RevealJS] fixFullscreenViewport attempt 0 {hasRef: true, isFullscreen: true}
+VM1372 index.tsx:111 [RevealJS] fixFullscreenViewport dimensions: {window: {…}, container: {…}}
+VM1372 index.tsx:112 [RevealJS] fixFullscreenViewport: Found viewport, before: {width: 881, height: 771, computed: {…}}
+VM1372 index.tsx:113 [RevealJS] fixFullscreenViewport: Set styles: {width: '881px', height: '771px'}
+VM1372 index.tsx:114 [RevealJS] fixFullscreenViewport: Calling layout (hasLayout: true)
+VM1372 index.tsx:114 [RevealJS] fixFullscreenViewport: Dispatching resize event
+VM1372 index.tsx:115 [RevealJS] fixFullscreenViewport: After fix: {width: 881, height: 771, computed: {…}}
+VM1372 index.tsx:131 [RevealJS] Fullscreen window resize handler triggered {windowWidth: 881, windowHeight: 771}
+VM1372 index.tsx:132 [RevealJS] Fullscreen window resize: Size unchanged, skipping
+VM1372 index.tsx:115 [RevealJS] fixFullscreenViewport: After fix: {width: 881, height: 771, computed: {…}}
+VM1372 index.tsx:110 [RevealJS] fixFullscreenViewport attempt 0 {hasRef: true, isFullscreen: true}
+VM1372 index.tsx:111 [RevealJS] fixFullscreenViewport dimensions: {window: {…}, container: {…}}
+VM1372 index.tsx:112 [RevealJS] fixFullscreenViewport: Found viewport, before: {width: 881, height: 771, computed: {…}}
+VM1372 index.tsx:113 [RevealJS] fixFullscreenViewport: Set styles: {width: '881px', height: '771px'}
+VM1372 index.tsx:114 [RevealJS] fixFullscreenViewport: Calling layout (hasLayout: true)
+VM1372 index.tsx:114 [RevealJS] fixFullscreenViewport: Dispatching resize event
+VM1372 index.tsx:131 [RevealJS] Fullscreen window resize handler triggered {windowWidth: 881, windowHeight: 771}
+VM1372 index.tsx:132 [RevealJS] Fullscreen window resize: Size unchanged, skipping
+VM1372 index.tsx:115 [RevealJS] fixFullscreenViewport: After fix: {width: 881, height: 771, computed: {…}}
+VM1372 index.tsx:126 [RevealJS] Fullscreen ResizeObserver triggered {entries: Array(1)}
+VM1372 index.tsx:100 [RevealJS] Cleaning up fullscreen transition timer
+index.tsx:599 [RevealJS] Fullscreen state changed: {isFullscreen: false}
+index.tsx:599 [RevealJS] Exiting fullscreen, cleaning up
+index.tsx:472 [RevealJS] Normal mode: Scheduling viewport fix
+index.tsx:532 [RevealJS] Normal ResizeObserver: Size changed, updating
+index.tsx:251 [RevealJS] fixViewportSize called (context: normal-resize, force: false) {container: 'reveal revealContainer_CwsG reveal-viewport slide …ontal-slides has-light-background ready has-white', hasInstance: true, isFullscreen: false}
+index.tsx:310 [RevealJS] Dimensions (context: normal-resize): {container: {…}, viewport: {…}, window: {…}, isFullscreen: false}
+index.tsx:345 [RevealJS] Set viewport styles: {width: '849px', height: '616.797px', maxWidth: '849px', maxHeight: '616.797px'}
+index.tsx:360 [RevealJS] Calling layout (hasLayout: true)
+index.tsx:475 [RevealJS] Normal mode: Calling fixViewportSize
+index.tsx:251 [RevealJS] fixViewportSize: Already updating, skipping (context: normal-init)
+index.tsx:373 [RevealJS] Final viewport dimensions: {width: 849, height: 616.796875, computed: {…}}
